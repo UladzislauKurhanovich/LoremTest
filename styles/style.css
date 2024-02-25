@@ -75,7 +75,7 @@ footer {
 }
 
 .main-baner {
-    background-image: url('src/img/main.svg');
+    background-image: url('../src/img/main.svg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
@@ -83,7 +83,7 @@ footer {
     padding: 100px 100px 150px 200px;
 }
 .main-order {
-    background-image: url('src/img/BG.svg');
+    background-image: url('../src/img/BG.svg');
     background-repeat: no-repeat;
     padding: 200px 0 200px 0;
     color: #fff;
