@@ -1,0 +1,109 @@
+
+
+:root {
+  --colorPrimaryDark: #0b132b;
+  --colorPrimaryLight: #494f61;
+  --colorPlaceholder: #9b9fa8;
+  --colorBackground: #eeeff0;
+  --colorBorder: #cdcfd3;
+  --colorAccent: #003bde;
+  --gutter: 0 16px;
+  --border: 1.5px solid var(--colorBorder);
+  --radius: 3px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+/* Input styling */
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: var(--border);
+  border-radius: var(--radius);
+  height: 48px;
+  width: 376px;
+  padding-left: 10px;
+  background-color: #FFFFFFD9;
+  color: #272733;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Lato;
+  margin-right: 10px;
+}
+
+.input__wrapper {
+    position: relativ;
+}
+
+.input__active {
+  border: none;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  background-color: #3D4050D9;
+}
+
+.input__placeholder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #272733;
+}
+
+.input:hover {
+  cursor: pointer;
+}
+
+.placeholder {
+  color: color: #272733;;
+}
+
+.input__selected {
+  color: #272733;
+}
+
+/* Dropdown styling */
+
+.structure {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 228px;
+  width: 370px;
+  overflow: hedden;
+  background-color: #272733E5;
+  margin: 5px;
+}
+
+.structure>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.structure>div>p:hover {
+  color: #42A9ED;
+  cursor: pointer;
+}
+
+.structure>div>h5 {
+  font-weight: 600;
+}
+
+.structure>div>p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
